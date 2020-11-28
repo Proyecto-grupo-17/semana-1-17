@@ -9,10 +9,17 @@ body {
     display: flex;
     align-items: center;
     height: 75px;
+    /* position: fixed; */
+}
+.logo{
+    width: 50%;
+    text-align: center;
 }
 .titulo{
-    width: 50%;
+    font-style: italic;
+    font-weight: bold;
     color: white;
+    font-size: 20px;
 }
 .navegacion-menu{
     width: 50%;
@@ -21,24 +28,31 @@ body {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    font-size: 15px;
 }
 .menu-principal__item{
     text-decoration: none;
     color: white;
+
 }
 .menu-principal__item> a:hover {
     font-size: 20px;
     text-decoration: underline;
     color: white;
 }
+.menu-principal__link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 .baner{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .baner__texto{
     position: absolute;
     color: white;
-}
-.baner__imagen{
-
+    font-weight: bold;
+    font-size: 40px;
 }
