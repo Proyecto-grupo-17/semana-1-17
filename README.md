@@ -18,3 +18,14 @@ El proyecto, deberá manejarse versionado en un repositorio remoto en github, en
   El elemento donde están los servicios debe de tener un `id=”team”`
 
 - Sección Footer o pie del sitio: el estudiante deberá crear el pie del sitio web en donde se incluye información de contacto, deberá estar dividido en dos partes, en una se tendrá la información del sitio web como el motivante del desarrollo y el enlace al repositorio de github, y en la otra los contacto de los miembros del equipo con sus nombres y roles. La sección debe de estar en un tag <footer></footer>
+
+autores:
+Daniel Felipe Martinez Vizcaino Seccion #1 parte superior
+Stefannie Julieth Morales Plazas Sección #2 Servicios
+Héctor Leonardo Sosa Desarrollador Sección #3 Equipos
+Mayra Alejandra Velasquez Ramos sección #4 Noticias
+Andrés Miguel Ramírez # sección footer
+
+Cada desarrollador en su rama local (header, servicios,noticias, equipo, footer) trabaja en la sección que le corresponde sobre los archivos .html y .css, verificando que opere correctamente. Luego guarda los cambios en el directorio de trabajo local, comentando los cambios realizados y asi subir al repositorio remoto el desarrollo correspondiente. Una vez cada desarrollador sube su rama local se procede a hacer pull-request con la rama master y se corrigen en caso de que haya un conflictos en el codigo. Finalmente una vez se compile toda la infromacion se descarga el proyecto en archivo .zip.
+
+
