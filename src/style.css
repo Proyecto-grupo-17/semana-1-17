@@ -1,7 +1,10 @@
-body {
-    font-family: sans-serif;
-    width: 1200px;
-}
+
+body{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 .header{
     background-color: #662d80;
 }
@@ -66,14 +69,37 @@ body {
     font-weight: bold;
   }
 .section-text-new{
-    margin: 0;
+  margin: 0;
     color:  rgb(7, 7, 7);
     background: white;
     font-weight: bolder;
     font-family: sansation;
     text-align: center;
-    font-size: 12px;
-        
+    font-size: 12px; 
+}
+
+.miembros_lista{
+        background-color: rgb(226, 226, 226);
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20;
+        margin-top: 20px;
+        text-align: justify;   
+    }
+.miembros_encabezado{
+  margin: 0;
+    color:  rgb(7, 7, 7);
+    background: white;
+    font-weight: bolder;
+    font-family: sansation;
+    text-align: center;
+    font-size: 30px; 
+}
+.miembros_imagen{border: rgb(130, 36, 227) 5px solid}
+.miembros_imagen_nombre{color: rgb(102, 45, 128)}
+.miembros_imagen_texto{color: rgb(100, 54, 181);
+    border: rgb(226, 226, 226) 10px solid;
+    font-style: italic;      
 }
 .section-text-new > i{
     margin: 0;
@@ -153,7 +179,7 @@ body {
     font-weight: bolder;
     font-family: sansation;
     text-align: center;
-    font-size: 12px;      
+    font-size: 30px;      
 }
 .section-text > i{
     margin: 0;
