@@ -1,1 +1,58 @@
+body {
+    font-family: sans-serif;
+    width: 1200px;
+}
+.header{
+    background-color: #662d80;
+}
+.barra-superior{
+    display: flex;
+    align-items: center;
+    height: 75px;
+    /* position: fixed; */
+}
+.logo{
+    width: 50%;
+    text-align: center;
+}
+.titulo{
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.navegacion-menu{
+    width: 50%;
+}
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+.menu-principal__item{
+    text-decoration: none;
+    color: white;
 
+}
+.menu-principal__item> a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+}
+.menu-principal__link{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baner__texto{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
