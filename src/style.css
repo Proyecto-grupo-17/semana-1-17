@@ -55,6 +55,7 @@ body {
     color: white;
     font-weight: bold;
     font-size: 40px;
+}
   .section-text{
     margin: 0;
     color:  rgb(7, 7, 7);
@@ -87,7 +88,7 @@ body {
 .secciones_footer{
     object-position: center;
     vertical-align: top;
-    width: 598px;
+    width: 590px;
     display: inline-block;
     padding: 0px;
     border: 0px;
